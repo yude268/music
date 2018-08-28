@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>喜马讲书</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+
+<div class="audio-main w3ls">
+	<div class="audio-record-list">
+	<div class="profile">
+			 <div class="profile-top wthree">
+				 <div class="pic-sec">
+					 <div class="pic">
+						 <a href="./"><img src="images/t3.jpg"/></a>
+					 </div>
+					 <div class="pic_info">
+						 <h2>喜马讲书</h2>
+						 <h3><a>干货满满的解读分享</a></h3>
+					 </div>
+					 <div class="clear"></div>
+				 </div>
+			 </div>
+		 </div>
+		<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+			<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+				<div class="jp-type-playlist">
+					<div class="jp-gui jp-interface">
+						<div class="jp-controls">	
+							<button class="jp-play" role="button" tabindex="0">play</button>
+						</div>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+							</div>
+						</div>
+						<div class="jp-time-holder">
+							<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+							<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+						</div>
+						
+					</div>
+					<div class="jp-playlist">
+						<ul>
+							<li>&nbsp;</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+<link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第001集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book1.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第002集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book2.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第003集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book3.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第004集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book4.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第005集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book5.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第006集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book6.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第007集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book7.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第008集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book8.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第009集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book9.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第010集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book10.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第011集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book11.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第012集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book12.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第013集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book13.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第014集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book14.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第015集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book15.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第016集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book16.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第017集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book17.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第018集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book18.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第019集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book19.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第020集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book20.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第021集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book21.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第022集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book22.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第023集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book23.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第024集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book24.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第025集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book25.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第026集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book26.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第027集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book27.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第028集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book28.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第029集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book29.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第030集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book30.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第031集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book31.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第032集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book32.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第033集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book33.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第034集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book34.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第035集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book35.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第036集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book36.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第037集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book37.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第038集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book38.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第039集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book39.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第040集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book40.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第041集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book41.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第042集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book42.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第043集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book43.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第044集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book44.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第045集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book45.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第046集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book46.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第047集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book47.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第048集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book48.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第049集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book49.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第050集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book50.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第051集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book51.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第052集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book52.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第053集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book53.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第054集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book54.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第055集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book55.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第056集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book56.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第057集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book57.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第058集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book58.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第059集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book59.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第060集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book60.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第061集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book61.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第062集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book62.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第063集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book63.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第064集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book64.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第065集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book65.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第066集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book66.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第067集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book67.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第068集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book68.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第069集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book69.m4a"},
+		{title:"喜马讲书&nbsp;&nbsp;&nbsp;第070集",mp3:"https://coding.net/u/baixf2087/p/xmbook1/git/raw/master/bk1/book70.m4a"}
+
+	], {
+		supplied: "mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+</script>
+
+</body>
+</html>
